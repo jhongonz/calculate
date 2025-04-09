@@ -15,12 +15,12 @@ use Core\Cards\Domain\Contracts\CreditCardFactoryInterface;
 use Core\Cards\Domain\Contracts\CreditCardManagerInterface;
 use Core\Cards\Domain\CreditCard;
 
-class CreditCardManager implements CreditCardManagerInterface
+readonly class CreditCardManager implements CreditCardManagerInterface
 {
     public function __construct(
-        private readonly CreditCardFactoryInterface $factory,
-        private readonly GetCreditCard $getCreditCard,
-        private readonly FindCreditCard $findCreditCard,
+        private CreditCardFactoryInterface $factory,
+        private GetCreditCard $getCreditCard,
+        private FindCreditCard $findCreditCard,
     ) {
     }
 

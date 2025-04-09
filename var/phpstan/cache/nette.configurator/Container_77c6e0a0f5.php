@@ -8,7 +8,7 @@
 
 declare(strict_types=1);
 
-class Container_c543132c84 extends _PHPStan_f2f2ddf44\Nette\DI\Container
+class Container_77c6e0a0f5 extends _PHPStan_f2f2ddf44\Nette\DI\Container
 {
 	protected $tags = [
 		'phpstan.parser.richParserNodeVisitor' => [
@@ -2603,7 +2603,7 @@ class Container_c543132c84 extends _PHPStan_f2f2ddf44\Nette\DI\Container
 			private $container;
 
 
-			public function __construct(Container_c543132c84 $container)
+			public function __construct(Container_77c6e0a0f5 $container)
 			{
 				$this->container = $container;
 			}
@@ -2881,7 +2881,7 @@ class Container_c543132c84 extends _PHPStan_f2f2ddf44\Nette\DI\Container
 			private $container;
 
 
-			public function __construct(Container_c543132c84 $container)
+			public function __construct(Container_77c6e0a0f5 $container)
 			{
 				$this->container = $container;
 			}
@@ -2943,7 +2943,7 @@ class Container_c543132c84 extends _PHPStan_f2f2ddf44\Nette\DI\Container
 			private $container;
 
 
-			public function __construct(Container_c543132c84 $container)
+			public function __construct(Container_77c6e0a0f5 $container)
 			{
 				$this->container = $container;
 			}
@@ -3069,7 +3069,7 @@ class Container_c543132c84 extends _PHPStan_f2f2ddf44\Nette\DI\Container
 			private $container;
 
 
-			public function __construct(Container_c543132c84 $container)
+			public function __construct(Container_77c6e0a0f5 $container)
 			{
 				$this->container = $container;
 			}
@@ -3089,7 +3089,7 @@ class Container_c543132c84 extends _PHPStan_f2f2ddf44\Nette\DI\Container
 			private $container;
 
 
-			public function __construct(Container_c543132c84 $container)
+			public function __construct(Container_77c6e0a0f5 $container)
 			{
 				$this->container = $container;
 			}
@@ -3192,7 +3192,7 @@ class Container_c543132c84 extends _PHPStan_f2f2ddf44\Nette\DI\Container
 			private $container;
 
 
-			public function __construct(Container_c543132c84 $container)
+			public function __construct(Container_77c6e0a0f5 $container)
 			{
 				$this->container = $container;
 			}
@@ -4899,7 +4899,7 @@ class Container_c543132c84 extends _PHPStan_f2f2ddf44\Nette\DI\Container
 			private $container;
 
 
-			public function __construct(Container_c543132c84 $container)
+			public function __construct(Container_77c6e0a0f5 $container)
 			{
 				$this->container = $container;
 			}
@@ -6191,7 +6191,7 @@ class Container_c543132c84 extends _PHPStan_f2f2ddf44\Nette\DI\Container
 	}
 
 
-	public function createServiceContainer(): Container_c543132c84
+	public function createServiceContainer(): Container_77c6e0a0f5
 	{
 		return $this;
 	}
@@ -8246,69 +8246,69 @@ class Container_c543132c84 extends _PHPStan_f2f2ddf44\Nette\DI\Container
 			'usedLevel' => '9',
 			'cliAutoloadFile' => null,
 			'env' => [
-				'DESKTOP_STARTUP_ID' => 'cinnamon-2555-kyros-"/home/jhonny/.local/share/JetBrains/Toolbox/apps/phpstorm/bin/phpstorm"-3_TIME7338515',
-				'GJS_DEBUG_OUTPUT' => 'stderr',
-				'WINDOWPATH' => '2',
-				'GDM_LANG' => 'es_ES.UTF-8',
-				'GTK3_MODULES' => 'xapp-gtk3-module',
-				'QT_ACCESSIBILITY' => '1',
-				'PWD' => '/var/www/calculate',
-				'XDG_DATA_DIRS' => '/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop',
-				'LANG' => 'es_ES.UTF-8',
-				'XAUTHORITY' => '/run/user/1000/gdm/Xauthority',
-				'MAKEFLAGS' => '',
-				'MFLAGS' => '',
-				'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh',
-				'XDG_SESSION_DESKTOP' => 'cinnamon',
-				'XDG_SESSION_TYPE' => 'x11',
-				'SESSION_MANAGER' => 'local/kyros:@/tmp/.ICE-unix/2259,unix/kyros:/tmp/.ICE-unix/2259',
-				'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus',
-				'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated',
-				'SHELL' => '/bin/bash',
-				'XMODIFIERS' => '@@im=ibus',
 				'GJS_DEBUG_TOPICS' => 'JS ERROR;JS LOG',
-				'SHLVL' => '1',
-				'PATH' => '/bin:/home/jhonny/.config/composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin:/home/jhonny/.local/share/JetBrains/Toolbox/scripts:/var/www/calculate/node_modules/.bin',
-				'CINNAMON_VERSION' => '4.8.6',
-				'XDEBUG_MODE' => 'coverage',
-				'_INTELLIJ_FORCE_PREPEND_PATH' => '/bin:',
-				'USERNAME' => 'jhonny',
-				'XDG_SEAT' => 'seat0',
-				'GTK_IM_MODULE' => 'ibus',
-				'XDG_CURRENT_DESKTOP' => 'X-Cinnamon',
-				'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:',
-				'DESKTOP_SESSION' => 'cinnamon',
-				'CLUTTER_IM_MODULE' => 'ibus',
-				'LOGNAME' => 'jhonny',
-				'GIO_LAUNCHED_DESKTOP_FILE' => '/home/jhonny/.local/share/applications/jetbrains-phpstorm-47da7ba4-60ac-473a-b917-67958943e163.desktop',
-				'XDG_VTNR' => '2',
-				'DISPLAY' => ':0',
-				'GTK_MODULES' => 'gail:atk-bridge',
-				'USER' => 'jhonny',
-				'TERMINAL_EMULATOR' => 'JetBrains-JediTerm',
 				'TERM_SESSION_ID' => '947d561c-5380-426d-92a0-6f2420a0c1cb',
-				'GIO_LAUNCHED_DESKTOP_FILE_PID' => '10685',
+				'USER' => 'jhonny',
+				'PHP_INI_SCAN_DIR' => '',
+				'XDG_SEAT' => 'seat0',
+				'XDG_SESSION_TYPE' => 'x11',
 				'SSH_AGENT_PID' => '2316',
-				'_' => '/bin/make',
-				'MAKE_TERMOUT' => '/dev/pts/2',
-				'XDG_RUNTIME_DIR' => '/run/user/1000',
-				'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1',
-				'GTK_OVERLAY_SCROLLING' => '0',
-				'MAKE_TERMERR' => '/dev/pts/2',
-				'XDG_SESSION_CLASS' => 'user',
+				'SHLVL' => '1',
 				'HOME' => '/home/jhonny',
-				'QT_IM_MODULE' => 'ibus',
+				'DESKTOP_SESSION' => 'cinnamon',
+				'GIO_LAUNCHED_DESKTOP_FILE' => '/home/jhonny/.local/share/applications/jetbrains-phpstorm-47da7ba4-60ac-473a-b917-67958943e163.desktop',
+				'TERMINAL_EMULATOR' => 'JetBrains-JediTerm',
+				'GTK_MODULES' => 'gail:atk-bridge',
+				'MAKEFLAGS' => '',
+				'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus',
+				'CINNAMON_VERSION' => '4.8.6',
+				'GIO_LAUNCHED_DESKTOP_FILE_PID' => '10685',
+				'MAKE_TERMERR' => '/dev/pts/2',
+				'SHELL_VERBOSITY' => '0',
+				'GTK_IM_MODULE' => 'ibus',
+				'LOGNAME' => 'jhonny',
+				'_' => '/bin/make',
+				'XDG_SESSION_CLASS' => 'user',
+				'USERNAME' => 'jhonny',
+				'GTK_OVERLAY_SCROLLING' => '0',
 				'TERM' => 'xterm-256color',
 				'XDG_SESSION_ID' => '2',
-				'GDMSESSION' => 'cinnamon',
-				'MAKELEVEL' => '1',
-				'LINES' => '29',
 				'COLUMNS' => '227',
-				'SHELL_VERBOSITY' => '0',
+				'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated',
+				'WINDOWPATH' => '2',
+				'XDEBUG_MODE' => 'coverage',
+				'PATH' => '/bin:/home/jhonny/.config/composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin:/home/jhonny/.local/share/JetBrains/Toolbox/scripts:/var/www/calculate/node_modules/.bin',
+				'GDM_LANG' => 'es_ES.UTF-8',
+				'GTK3_MODULES' => 'xapp-gtk3-module',
+				'SESSION_MANAGER' => 'local/kyros:@/tmp/.ICE-unix/2259,unix/kyros:/tmp/.ICE-unix/2259',
+				'XDEBUG_HANDLER_SETTINGS' => '/tmp/0GDbd3|1|*|*|/etc/php/8.3/cli/php.ini:/etc/php/8.3/cli/conf.d/10-mysqlnd.ini:/etc/php/8.3/cli/conf.d/10-opcache.ini:/etc/php/8.3/cli/conf.d/10-pdo.ini:/etc/php/8.3/cli/conf.d/15-xml.ini:/etc/php/8.3/cli/conf.d/20-bcmath.ini:/etc/php/8.3/cli/conf.d/20-calendar.ini:/etc/php/8.3/cli/conf.d/20-ctype.ini:/etc/php/8.3/cli/conf.d/20-curl.ini:/etc/php/8.3/cli/conf.d/20-dom.ini:/etc/php/8.3/cli/conf.d/20-exif.ini:/etc/php/8.3/cli/conf.d/20-ffi.ini:/etc/php/8.3/cli/conf.d/20-fileinfo.ini:/etc/php/8.3/cli/conf.d/20-ftp.ini:/etc/php/8.3/cli/conf.d/20-gd.ini:/etc/php/8.3/cli/conf.d/20-gettext.ini:/etc/php/8.3/cli/conf.d/20-iconv.ini:/etc/php/8.3/cli/conf.d/20-igbinary.ini:/etc/php/8.3/cli/conf.d/20-imagick.ini:/etc/php/8.3/cli/conf.d/20-intl.ini:/etc/php/8.3/cli/conf.d/20-mbstring.ini:/etc/php/8.3/cli/conf.d/20-mysqli.ini:/etc/php/8.3/cli/conf.d/20-pdo_mysql.ini:/etc/php/8.3/cli/conf.d/20-pdo_sqlite.ini:/etc/php/8.3/cli/conf.d/20-phar.ini:/etc/php/8.3/cli/conf.d/20-posix.ini:/etc/php/8.3/cli/conf.d/20-readline.ini:/etc/php/8.3/cli/conf.d/20-shmop.ini:/etc/php/8.3/cli/conf.d/20-simplexml.ini:/etc/php/8.3/cli/conf.d/20-soap.ini:/etc/php/8.3/cli/conf.d/20-sockets.ini:/etc/php/8.3/cli/conf.d/20-sqlite3.ini:/etc/php/8.3/cli/conf.d/20-sysvmsg.ini:/etc/php/8.3/cli/conf.d/20-sysvsem.ini:/etc/php/8.3/cli/conf.d/20-sysvshm.ini:/etc/php/8.3/cli/conf.d/20-tokenizer.ini:/etc/php/8.3/cli/conf.d/20-xdebug.ini:/etc/php/8.3/cli/conf.d/20-xmlreader.ini:/etc/php/8.3/cli/conf.d/20-xmlwriter.ini:/etc/php/8.3/cli/conf.d/20-xsl.ini:/etc/php/8.3/cli/conf.d/20-zip.ini:/etc/php/8.3/cli/conf.d/25-redis.ini|3.4.2',
+				'XDG_RUNTIME_DIR' => '/run/user/1000',
+				'MAKELEVEL' => '1',
+				'DISPLAY' => ':0',
+				'PHPRC' => '/tmp/0GDbd3',
+				'DESKTOP_STARTUP_ID' => 'cinnamon-2555-kyros-"/home/jhonny/.local/share/JetBrains/Toolbox/apps/phpstorm/bin/phpstorm"-3_TIME7338515',
+				'LANG' => 'es_ES.UTF-8',
+				'XDG_CURRENT_DESKTOP' => 'X-Cinnamon',
+				'XAUTHORITY' => '/run/user/1000/gdm/Xauthority',
+				'XDG_SESSION_DESKTOP' => 'cinnamon',
+				'XMODIFIERS' => '@@im=ibus',
+				'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:',
+				'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh',
+				'SHELL' => '/bin/bash',
+				'QT_ACCESSIBILITY' => '1',
+				'MAKE_TERMOUT' => '/dev/pts/2',
+				'GDMSESSION' => 'cinnamon',
 				'PHPSTAN_ORIGINAL_INIS' => '/etc/php/8.3/cli/php.ini:/etc/php/8.3/cli/conf.d/10-mysqlnd.ini:/etc/php/8.3/cli/conf.d/10-opcache.ini:/etc/php/8.3/cli/conf.d/10-pdo.ini:/etc/php/8.3/cli/conf.d/15-xml.ini:/etc/php/8.3/cli/conf.d/20-bcmath.ini:/etc/php/8.3/cli/conf.d/20-calendar.ini:/etc/php/8.3/cli/conf.d/20-ctype.ini:/etc/php/8.3/cli/conf.d/20-curl.ini:/etc/php/8.3/cli/conf.d/20-dom.ini:/etc/php/8.3/cli/conf.d/20-exif.ini:/etc/php/8.3/cli/conf.d/20-ffi.ini:/etc/php/8.3/cli/conf.d/20-fileinfo.ini:/etc/php/8.3/cli/conf.d/20-ftp.ini:/etc/php/8.3/cli/conf.d/20-gd.ini:/etc/php/8.3/cli/conf.d/20-gettext.ini:/etc/php/8.3/cli/conf.d/20-iconv.ini:/etc/php/8.3/cli/conf.d/20-igbinary.ini:/etc/php/8.3/cli/conf.d/20-imagick.ini:/etc/php/8.3/cli/conf.d/20-intl.ini:/etc/php/8.3/cli/conf.d/20-mbstring.ini:/etc/php/8.3/cli/conf.d/20-mysqli.ini:/etc/php/8.3/cli/conf.d/20-pdo_mysql.ini:/etc/php/8.3/cli/conf.d/20-pdo_sqlite.ini:/etc/php/8.3/cli/conf.d/20-phar.ini:/etc/php/8.3/cli/conf.d/20-posix.ini:/etc/php/8.3/cli/conf.d/20-readline.ini:/etc/php/8.3/cli/conf.d/20-shmop.ini:/etc/php/8.3/cli/conf.d/20-simplexml.ini:/etc/php/8.3/cli/conf.d/20-soap.ini:/etc/php/8.3/cli/conf.d/20-sockets.ini:/etc/php/8.3/cli/conf.d/20-sqlite3.ini:/etc/php/8.3/cli/conf.d/20-sysvmsg.ini:/etc/php/8.3/cli/conf.d/20-sysvsem.ini:/etc/php/8.3/cli/conf.d/20-sysvshm.ini:/etc/php/8.3/cli/conf.d/20-tokenizer.ini:/etc/php/8.3/cli/conf.d/20-xdebug.ini:/etc/php/8.3/cli/conf.d/20-xmlreader.ini:/etc/php/8.3/cli/conf.d/20-xmlwriter.ini:/etc/php/8.3/cli/conf.d/20-xsl.ini:/etc/php/8.3/cli/conf.d/20-zip.ini:/etc/php/8.3/cli/conf.d/25-redis.ini',
-				'PHP_INI_SCAN_DIR' => '',
-				'PHPRC' => '/tmp/QEmYIK',
-				'XDEBUG_HANDLER_SETTINGS' => '/tmp/QEmYIK|1|*|*|/etc/php/8.3/cli/php.ini:/etc/php/8.3/cli/conf.d/10-mysqlnd.ini:/etc/php/8.3/cli/conf.d/10-opcache.ini:/etc/php/8.3/cli/conf.d/10-pdo.ini:/etc/php/8.3/cli/conf.d/15-xml.ini:/etc/php/8.3/cli/conf.d/20-bcmath.ini:/etc/php/8.3/cli/conf.d/20-calendar.ini:/etc/php/8.3/cli/conf.d/20-ctype.ini:/etc/php/8.3/cli/conf.d/20-curl.ini:/etc/php/8.3/cli/conf.d/20-dom.ini:/etc/php/8.3/cli/conf.d/20-exif.ini:/etc/php/8.3/cli/conf.d/20-ffi.ini:/etc/php/8.3/cli/conf.d/20-fileinfo.ini:/etc/php/8.3/cli/conf.d/20-ftp.ini:/etc/php/8.3/cli/conf.d/20-gd.ini:/etc/php/8.3/cli/conf.d/20-gettext.ini:/etc/php/8.3/cli/conf.d/20-iconv.ini:/etc/php/8.3/cli/conf.d/20-igbinary.ini:/etc/php/8.3/cli/conf.d/20-imagick.ini:/etc/php/8.3/cli/conf.d/20-intl.ini:/etc/php/8.3/cli/conf.d/20-mbstring.ini:/etc/php/8.3/cli/conf.d/20-mysqli.ini:/etc/php/8.3/cli/conf.d/20-pdo_mysql.ini:/etc/php/8.3/cli/conf.d/20-pdo_sqlite.ini:/etc/php/8.3/cli/conf.d/20-phar.ini:/etc/php/8.3/cli/conf.d/20-posix.ini:/etc/php/8.3/cli/conf.d/20-readline.ini:/etc/php/8.3/cli/conf.d/20-shmop.ini:/etc/php/8.3/cli/conf.d/20-simplexml.ini:/etc/php/8.3/cli/conf.d/20-soap.ini:/etc/php/8.3/cli/conf.d/20-sockets.ini:/etc/php/8.3/cli/conf.d/20-sqlite3.ini:/etc/php/8.3/cli/conf.d/20-sysvmsg.ini:/etc/php/8.3/cli/conf.d/20-sysvsem.ini:/etc/php/8.3/cli/conf.d/20-sysvshm.ini:/etc/php/8.3/cli/conf.d/20-tokenizer.ini:/etc/php/8.3/cli/conf.d/20-xdebug.ini:/etc/php/8.3/cli/conf.d/20-xmlreader.ini:/etc/php/8.3/cli/conf.d/20-xmlwriter.ini:/etc/php/8.3/cli/conf.d/20-xsl.ini:/etc/php/8.3/cli/conf.d/20-zip.ini:/etc/php/8.3/cli/conf.d/25-redis.ini|3.4.2',
+				'GJS_DEBUG_OUTPUT' => 'stderr',
+				'_INTELLIJ_FORCE_PREPEND_PATH' => '/bin:',
+				'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1',
+				'XDG_VTNR' => '2',
+				'QT_IM_MODULE' => 'ibus',
+				'PWD' => '/var/www/calculate',
+				'XDG_DATA_DIRS' => '/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop',
+				'CLUTTER_IM_MODULE' => 'ibus',
+				'LINES' => '29',
+				'MFLAGS' => '',
 			],
 		];
 	}

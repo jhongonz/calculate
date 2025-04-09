@@ -24,15 +24,27 @@ class EloquentCreditCardRepository implements CreditCardRepositoryInterface
     /**
      * @param array<string> $search
      *
-     * @return array|CreditCard[]
+     * @return array<CreditCard>
      */
     public function getAll(array $search = []): array
     {
         $builder = $this->databaseManager->table('credit_card');
-        $collection = $builder->get()->toArray();
+        $result = $builder->get()->toArray();
+
+        $collection = [];
+        foreach ($result as $item) {
+            $card = $this->cardFactory->buildCreditCardFromObject($item);
+            $collection[] = $card;
+        }
+
+        return $collection;
     }
 
     public function findById(CardId $id): ?CreditCard
     {
+        $builder = $this->databaseManager->table('credit_card');
+        $result = $builder->first($id->value())->toArray();
+
+        return $this->cardFactory->buildCreditCardFromObject($result);
     }
 }

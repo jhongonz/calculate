@@ -2216,6 +2216,41 @@ return [
 	'projectExtensionFiles' => array (
 ),
 	'errorsCallback' => static function (): array { return array (
+  '/var/www/calculate/app/Http/Controllers/CardControllers.php' => 
+  array (
+    0 => 
+    \PHPStan\Analyser\Error::__set_state(array(
+       'message' => 'Property App\\Http\\Controllers\\CardControllers::$viewFactory is never read, only written.',
+       'file' => '/var/www/calculate/app/Http/Controllers/CardControllers.php',
+       'line' => 16,
+       'canBeIgnored' => true,
+       'filePath' => '/var/www/calculate/app/Http/Controllers/CardControllers.php',
+       'traitFilePath' => NULL,
+       'tip' => 'See: https://phpstan.org/developing-extensions/always-read-written-properties',
+       'nodeLine' => 13,
+       'nodeType' => 'PHPStan\\Node\\ClassPropertiesNode',
+       'identifier' => 'property.onlyWritten',
+       'metadata' => 
+      array (
+      ),
+    )),
+    1 => 
+    \PHPStan\Analyser\Error::__set_state(array(
+       'message' => 'Unreachable statement - code above always terminates.',
+       'file' => '/var/www/calculate/app/Http/Controllers/CardControllers.php',
+       'line' => 26,
+       'canBeIgnored' => true,
+       'filePath' => '/var/www/calculate/app/Http/Controllers/CardControllers.php',
+       'traitFilePath' => NULL,
+       'tip' => NULL,
+       'nodeLine' => 26,
+       'nodeType' => 'PHPStan\\Node\\UnreachableStatementNode',
+       'identifier' => 'deadCode.unreachable',
+       'metadata' => 
+      array (
+      ),
+    )),
+  ),
   '/var/www/calculate/config/app.php' => 
   array (
     0 => 
@@ -2330,6 +2365,121 @@ return [
       ),
     )),
   ),
+  '/var/www/calculate/src/core/Cards/Application/CreditCardFactory.php' => 
+  array (
+    0 => 
+    \PHPStan\Analyser\Error::__set_state(array(
+       'message' => 'Access to an undefined property object::$card_id.',
+       'file' => '/var/www/calculate/src/core/Cards/Application/CreditCardFactory.php',
+       'line' => 40,
+       'canBeIgnored' => true,
+       'filePath' => '/var/www/calculate/src/core/Cards/Application/CreditCardFactory.php',
+       'traitFilePath' => NULL,
+       'tip' => 'Learn more: <fg=cyan>https://phpstan.org/blog/solving-phpstan-access-to-undefined-property</>',
+       'nodeLine' => 40,
+       'nodeType' => 'PhpParser\\Node\\Expr\\PropertyFetch',
+       'identifier' => 'property.notFound',
+       'metadata' => 
+      array (
+      ),
+    )),
+    1 => 
+    \PHPStan\Analyser\Error::__set_state(array(
+       'message' => 'Access to an undefined property object::$name.',
+       'file' => '/var/www/calculate/src/core/Cards/Application/CreditCardFactory.php',
+       'line' => 41,
+       'canBeIgnored' => true,
+       'filePath' => '/var/www/calculate/src/core/Cards/Application/CreditCardFactory.php',
+       'traitFilePath' => NULL,
+       'tip' => 'Learn more: <fg=cyan>https://phpstan.org/blog/solving-phpstan-access-to-undefined-property</>',
+       'nodeLine' => 41,
+       'nodeType' => 'PhpParser\\Node\\Expr\\PropertyFetch',
+       'identifier' => 'property.notFound',
+       'metadata' => 
+      array (
+      ),
+    )),
+    2 => 
+    \PHPStan\Analyser\Error::__set_state(array(
+       'message' => 'Access to an undefined property object::$issuer.',
+       'file' => '/var/www/calculate/src/core/Cards/Application/CreditCardFactory.php',
+       'line' => 42,
+       'canBeIgnored' => true,
+       'filePath' => '/var/www/calculate/src/core/Cards/Application/CreditCardFactory.php',
+       'traitFilePath' => NULL,
+       'tip' => 'Learn more: <fg=cyan>https://phpstan.org/blog/solving-phpstan-access-to-undefined-property</>',
+       'nodeLine' => 42,
+       'nodeType' => 'PhpParser\\Node\\Expr\\PropertyFetch',
+       'identifier' => 'property.notFound',
+       'metadata' => 
+      array (
+      ),
+    )),
+    3 => 
+    \PHPStan\Analyser\Error::__set_state(array(
+       'message' => 'Access to an undefined property object::$annual_fee.',
+       'file' => '/var/www/calculate/src/core/Cards/Application/CreditCardFactory.php',
+       'line' => 43,
+       'canBeIgnored' => true,
+       'filePath' => '/var/www/calculate/src/core/Cards/Application/CreditCardFactory.php',
+       'traitFilePath' => NULL,
+       'tip' => 'Learn more: <fg=cyan>https://phpstan.org/blog/solving-phpstan-access-to-undefined-property</>',
+       'nodeLine' => 43,
+       'nodeType' => 'PhpParser\\Node\\Expr\\PropertyFetch',
+       'identifier' => 'property.notFound',
+       'metadata' => 
+      array (
+      ),
+    )),
+    4 => 
+    \PHPStan\Analyser\Error::__set_state(array(
+       'message' => 'Access to an undefined property object::$interest_rate.',
+       'file' => '/var/www/calculate/src/core/Cards/Application/CreditCardFactory.php',
+       'line' => 44,
+       'canBeIgnored' => true,
+       'filePath' => '/var/www/calculate/src/core/Cards/Application/CreditCardFactory.php',
+       'traitFilePath' => NULL,
+       'tip' => 'Learn more: <fg=cyan>https://phpstan.org/blog/solving-phpstan-access-to-undefined-property</>',
+       'nodeLine' => 44,
+       'nodeType' => 'PhpParser\\Node\\Expr\\PropertyFetch',
+       'identifier' => 'property.notFound',
+       'metadata' => 
+      array (
+      ),
+    )),
+    5 => 
+    \PHPStan\Analyser\Error::__set_state(array(
+       'message' => 'Access to an undefined property object::$clickout_url.',
+       'file' => '/var/www/calculate/src/core/Cards/Application/CreditCardFactory.php',
+       'line' => 45,
+       'canBeIgnored' => true,
+       'filePath' => '/var/www/calculate/src/core/Cards/Application/CreditCardFactory.php',
+       'traitFilePath' => NULL,
+       'tip' => 'Learn more: <fg=cyan>https://phpstan.org/blog/solving-phpstan-access-to-undefined-property</>',
+       'nodeLine' => 45,
+       'nodeType' => 'PhpParser\\Node\\Expr\\PropertyFetch',
+       'identifier' => 'property.notFound',
+       'metadata' => 
+      array (
+      ),
+    )),
+    6 => 
+    \PHPStan\Analyser\Error::__set_state(array(
+       'message' => 'Method Core\\Cards\\Application\\CreditCardFactory::buildFeatures() has parameter $features with no value type specified in iterable type array.',
+       'file' => '/var/www/calculate/src/core/Cards/Application/CreditCardFactory.php',
+       'line' => 90,
+       'canBeIgnored' => true,
+       'filePath' => '/var/www/calculate/src/core/Cards/Application/CreditCardFactory.php',
+       'traitFilePath' => NULL,
+       'tip' => 'See: https://phpstan.org/blog/solving-phpstan-no-value-type-specified-in-iterable-type',
+       'nodeLine' => 90,
+       'nodeType' => 'PHPStan\\Node\\InClassMethodNode',
+       'identifier' => 'missingType.iterableValue',
+       'metadata' => 
+      array (
+      ),
+    )),
+  ),
   '/var/www/calculate/src/core/Cards/Application/UseCases/Retrieve/GetCreditCardRequest.php' => 
   array (
     0 => 
@@ -2342,6 +2492,25 @@ return [
        'traitFilePath' => NULL,
        'tip' => 'See: https://phpstan.org/blog/solving-phpstan-no-value-type-specified-in-iterable-type',
        'nodeLine' => 22,
+       'nodeType' => 'PHPStan\\Node\\InClassMethodNode',
+       'identifier' => 'missingType.iterableValue',
+       'metadata' => 
+      array (
+      ),
+    )),
+  ),
+  '/var/www/calculate/src/core/Cards/Domain/Contracts/CreditCardFactoryInterface.php' => 
+  array (
+    0 => 
+    \PHPStan\Analyser\Error::__set_state(array(
+       'message' => 'Method Core\\Cards\\Domain\\Contracts\\CreditCardFactoryInterface::buildFeatures() has parameter $features with no value type specified in iterable type array.',
+       'file' => '/var/www/calculate/src/core/Cards/Domain/Contracts/CreditCardFactoryInterface.php',
+       'line' => 44,
+       'canBeIgnored' => true,
+       'filePath' => '/var/www/calculate/src/core/Cards/Domain/Contracts/CreditCardFactoryInterface.php',
+       'traitFilePath' => NULL,
+       'tip' => 'See: https://phpstan.org/blog/solving-phpstan-no-value-type-specified-in-iterable-type',
+       'nodeLine' => 44,
        'nodeType' => 'PHPStan\\Node\\InClassMethodNode',
        'identifier' => 'missingType.iterableValue',
        'metadata' => 
@@ -2420,48 +2589,48 @@ return [
   array (
     0 => 
     \PHPStan\Analyser\Error::__set_state(array(
-       'message' => 'Property Core\\Cards\\Infrastructure\\Persistence\\Repositories\\EloquentCreditCardRepository::$cardFactory is never read, only written.',
+       'message' => 'Parameter #1 $object of method Core\\Cards\\Domain\\Contracts\\CreditCardFactoryInterface::buildCreditCardFromObject() expects object, mixed given.',
        'file' => '/var/www/calculate/src/core/Cards/Infrastructure/Persistence/Repositories/EloquentCreditCardRepository.php',
-       'line' => 20,
+       'line' => 36,
        'canBeIgnored' => true,
        'filePath' => '/var/www/calculate/src/core/Cards/Infrastructure/Persistence/Repositories/EloquentCreditCardRepository.php',
        'traitFilePath' => NULL,
-       'tip' => 'See: https://phpstan.org/developing-extensions/always-read-written-properties',
-       'nodeLine' => 16,
-       'nodeType' => 'PHPStan\\Node\\ClassPropertiesNode',
-       'identifier' => 'property.onlyWritten',
+       'tip' => NULL,
+       'nodeLine' => 36,
+       'nodeType' => 'PhpParser\\Node\\Expr\\MethodCall',
+       'identifier' => 'argument.type',
        'metadata' => 
       array (
       ),
     )),
     1 => 
     \PHPStan\Analyser\Error::__set_state(array(
-       'message' => 'Method Core\\Cards\\Infrastructure\\Persistence\\Repositories\\EloquentCreditCardRepository::getAll() should return array<Core\\Cards\\Domain\\CreditCard> but return statement is missing.',
+       'message' => 'Cannot call method toArray() on object|null.',
        'file' => '/var/www/calculate/src/core/Cards/Infrastructure/Persistence/Repositories/EloquentCreditCardRepository.php',
-       'line' => 32,
-       'canBeIgnored' => false,
+       'line' => 46,
+       'canBeIgnored' => true,
        'filePath' => '/var/www/calculate/src/core/Cards/Infrastructure/Persistence/Repositories/EloquentCreditCardRepository.php',
        'traitFilePath' => NULL,
        'tip' => NULL,
-       'nodeLine' => 32,
-       'nodeType' => 'PHPStan\\Node\\ExecutionEndNode',
-       'identifier' => 'return.missing',
+       'nodeLine' => 46,
+       'nodeType' => 'PhpParser\\Node\\Expr\\MethodCall',
+       'identifier' => 'method.nonObject',
        'metadata' => 
       array (
       ),
     )),
     2 => 
     \PHPStan\Analyser\Error::__set_state(array(
-       'message' => 'Method Core\\Cards\\Infrastructure\\Persistence\\Repositories\\EloquentCreditCardRepository::findById() should return Core\\Cards\\Domain\\CreditCard|null but return statement is missing.',
+       'message' => 'Parameter #1 $columns of method Illuminate\\Database\\Query\\Builder::first() expects array|string, int given.',
        'file' => '/var/www/calculate/src/core/Cards/Infrastructure/Persistence/Repositories/EloquentCreditCardRepository.php',
-       'line' => 35,
-       'canBeIgnored' => false,
+       'line' => 46,
+       'canBeIgnored' => true,
        'filePath' => '/var/www/calculate/src/core/Cards/Infrastructure/Persistence/Repositories/EloquentCreditCardRepository.php',
        'traitFilePath' => NULL,
        'tip' => NULL,
-       'nodeLine' => 35,
-       'nodeType' => 'PHPStan\\Node\\ExecutionEndNode',
-       'identifier' => 'return.missing',
+       'nodeLine' => 46,
+       'nodeType' => 'PhpParser\\Node\\Expr\\MethodCall',
+       'identifier' => 'argument.type',
        'metadata' => 
       array (
       ),
@@ -2477,13 +2646,17 @@ return [
 	'collectedDataCallback' => static function (): array { return array (
   '/var/www/calculate/app/Http/Controllers/CardControllers.php' => 
   array (
-    'Larastan\\Larastan\\Collectors\\UsedViewMakeCollector' => 
-    array (
-      0 => 'cards',
-    ),
     'PHPStan\\Rules\\DeadCode\\ConstructorWithoutImpurePointsCollector' => 
     array (
       0 => 'App\\Http\\Controllers\\CardControllers',
+    ),
+    'PHPStan\\Rules\\DeadCode\\PossiblyPureFuncCallCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'dd',
+        1 => 24,
+      ),
     ),
   ),
   '/var/www/calculate/app/Models/User.php' => 
@@ -2754,15 +2927,6 @@ return [
     array (
       0 => 'Core\\Cards\\Infrastructure\\Persistence\\Repositories\\EloquentCreditCardRepository',
     ),
-    'PHPStan\\Rules\\DeadCode\\MethodWithoutImpurePointsCollector' => 
-    array (
-      0 => 
-      array (
-        0 => 'Core\\Cards\\Infrastructure\\Persistence\\Repositories\\EloquentCreditCardRepository',
-        1 => 'findById',
-        2 => 'Core\\Cards\\Infrastructure\\Persistence\\Repositories\\EloquentCreditCardRepository',
-      ),
-    ),
   ),
   '/var/www/calculate/src/core/Cards/Infrastructure/Services/CreditCardManager.php' => 
   array (
@@ -2775,7 +2939,7 @@ return [
 	'dependencies' => array (
   '/var/www/calculate/app/Http/Controllers/CardControllers.php' => 
   array (
-    'fileHash' => '5ffcf4c6bfdeb30d23cf0b0fa4dfc72f74912f6e',
+    'fileHash' => '5043e29adebffb82328a429b1308b34ce6dcea63',
     'dependentFiles' => 
     array (
       0 => '/var/www/calculate/routes/web.php',
@@ -2800,7 +2964,7 @@ return [
   ),
   '/var/www/calculate/app/Providers/AppServiceProvider.php' => 
   array (
-    'fileHash' => 'c4289c1112c7480860b24b826a6c06a7f12e4d8b',
+    'fileHash' => '0dde0161782208e5b3db63e16dac7e2350f6dcd7',
     'dependentFiles' => 
     array (
       0 => '/var/www/calculate/bootstrap/providers.php',
@@ -2899,9 +3063,10 @@ return [
   ),
   '/var/www/calculate/src/core/Cards/Application/CreditCardFactory.php' => 
   array (
-    'fileHash' => '03ce80da869c7357bc1a17194e7935ffaa904eb7',
+    'fileHash' => 'd6c0f4d854f415959df0c787bc6c5358f485aa23',
     'dependentFiles' => 
     array (
+      0 => '/var/www/calculate/app/Providers/AppServiceProvider.php',
     ),
   ),
   '/var/www/calculate/src/core/Cards/Application/UseCases/RequestServiceInterface.php' => 
@@ -2975,12 +3140,13 @@ return [
   ),
   '/var/www/calculate/src/core/Cards/Domain/Contracts/CreditCardFactoryInterface.php' => 
   array (
-    'fileHash' => '08df3d449aa7822272ab4e0544c10c6178e83ae3',
+    'fileHash' => '623932f7d15beef2a84a60e117bd01760ae37e87',
     'dependentFiles' => 
     array (
-      0 => '/var/www/calculate/src/core/Cards/Application/CreditCardFactory.php',
-      1 => '/var/www/calculate/src/core/Cards/Infrastructure/Persistence/Repositories/EloquentCreditCardRepository.php',
-      2 => '/var/www/calculate/src/core/Cards/Infrastructure/Services/CreditCardManager.php',
+      0 => '/var/www/calculate/app/Providers/AppServiceProvider.php',
+      1 => '/var/www/calculate/src/core/Cards/Application/CreditCardFactory.php',
+      2 => '/var/www/calculate/src/core/Cards/Infrastructure/Persistence/Repositories/EloquentCreditCardRepository.php',
+      3 => '/var/www/calculate/src/core/Cards/Infrastructure/Services/CreditCardManager.php',
     ),
   ),
   '/var/www/calculate/src/core/Cards/Domain/Contracts/CreditCardManagerInterface.php' => 
@@ -2988,7 +3154,9 @@ return [
     'fileHash' => 'b67332fd5cdb032a82b9758a7b0cfe97cf34da46',
     'dependentFiles' => 
     array (
-      0 => '/var/www/calculate/src/core/Cards/Infrastructure/Services/CreditCardManager.php',
+      0 => '/var/www/calculate/app/Http/Controllers/CardControllers.php',
+      1 => '/var/www/calculate/app/Providers/AppServiceProvider.php',
+      2 => '/var/www/calculate/src/core/Cards/Infrastructure/Services/CreditCardManager.php',
     ),
   ),
   '/var/www/calculate/src/core/Cards/Domain/Contracts/CreditCardRepositoryInterface.php' => 
@@ -2996,10 +3164,11 @@ return [
     'fileHash' => '1cd61cfecaa2ee767fe84dcd6bae3381dc4c6a4d',
     'dependentFiles' => 
     array (
-      0 => '/var/www/calculate/src/core/Cards/Application/UseCases/Retrieve/FindCreditCard.php',
-      1 => '/var/www/calculate/src/core/Cards/Application/UseCases/Retrieve/GetCreditCard.php',
-      2 => '/var/www/calculate/src/core/Cards/Application/UseCases/UseCaseService.php',
-      3 => '/var/www/calculate/src/core/Cards/Infrastructure/Persistence/Repositories/EloquentCreditCardRepository.php',
+      0 => '/var/www/calculate/app/Providers/AppServiceProvider.php',
+      1 => '/var/www/calculate/src/core/Cards/Application/UseCases/Retrieve/FindCreditCard.php',
+      2 => '/var/www/calculate/src/core/Cards/Application/UseCases/Retrieve/GetCreditCard.php',
+      3 => '/var/www/calculate/src/core/Cards/Application/UseCases/UseCaseService.php',
+      4 => '/var/www/calculate/src/core/Cards/Infrastructure/Persistence/Repositories/EloquentCreditCardRepository.php',
     ),
   ),
   '/var/www/calculate/src/core/Cards/Domain/CreditCard.php' => 
@@ -3007,12 +3176,15 @@ return [
     'fileHash' => '0b1fd6b0877871b90fae0041867a3ae9d7d64b33',
     'dependentFiles' => 
     array (
-      0 => '/var/www/calculate/src/core/Cards/Application/UseCases/Retrieve/FindCreditCard.php',
-      1 => '/var/www/calculate/src/core/Cards/Application/UseCases/Retrieve/GetCreditCard.php',
-      2 => '/var/www/calculate/src/core/Cards/Domain/Contracts/CreditCardManagerInterface.php',
-      3 => '/var/www/calculate/src/core/Cards/Domain/Contracts/CreditCardRepositoryInterface.php',
-      4 => '/var/www/calculate/src/core/Cards/Infrastructure/Persistence/Repositories/EloquentCreditCardRepository.php',
-      5 => '/var/www/calculate/src/core/Cards/Infrastructure/Services/CreditCardManager.php',
+      0 => '/var/www/calculate/app/Http/Controllers/CardControllers.php',
+      1 => '/var/www/calculate/src/core/Cards/Application/CreditCardFactory.php',
+      2 => '/var/www/calculate/src/core/Cards/Application/UseCases/Retrieve/FindCreditCard.php',
+      3 => '/var/www/calculate/src/core/Cards/Application/UseCases/Retrieve/GetCreditCard.php',
+      4 => '/var/www/calculate/src/core/Cards/Domain/Contracts/CreditCardFactoryInterface.php',
+      5 => '/var/www/calculate/src/core/Cards/Domain/Contracts/CreditCardManagerInterface.php',
+      6 => '/var/www/calculate/src/core/Cards/Domain/Contracts/CreditCardRepositoryInterface.php',
+      7 => '/var/www/calculate/src/core/Cards/Infrastructure/Persistence/Repositories/EloquentCreditCardRepository.php',
+      8 => '/var/www/calculate/src/core/Cards/Infrastructure/Services/CreditCardManager.php',
     ),
   ),
   '/var/www/calculate/src/core/Cards/Domain/ValueObjects/CardAnnualFee.php' => 
@@ -3020,7 +3192,9 @@ return [
     'fileHash' => 'ec270e998beb3cb07ec2a76cdd526a0dfbf42b72',
     'dependentFiles' => 
     array (
-      0 => '/var/www/calculate/src/core/Cards/Domain/CreditCard.php',
+      0 => '/var/www/calculate/src/core/Cards/Application/CreditCardFactory.php',
+      1 => '/var/www/calculate/src/core/Cards/Domain/Contracts/CreditCardFactoryInterface.php',
+      2 => '/var/www/calculate/src/core/Cards/Domain/CreditCard.php',
     ),
   ),
   '/var/www/calculate/src/core/Cards/Domain/ValueObjects/CardClickOutUrl.php' => 
@@ -3028,7 +3202,9 @@ return [
     'fileHash' => 'ddaa38fbacf30ccbd5cd65f50f2b17ab2df92325',
     'dependentFiles' => 
     array (
-      0 => '/var/www/calculate/src/core/Cards/Domain/CreditCard.php',
+      0 => '/var/www/calculate/src/core/Cards/Application/CreditCardFactory.php',
+      1 => '/var/www/calculate/src/core/Cards/Domain/Contracts/CreditCardFactoryInterface.php',
+      2 => '/var/www/calculate/src/core/Cards/Domain/CreditCard.php',
     ),
   ),
   '/var/www/calculate/src/core/Cards/Domain/ValueObjects/CardFeatures.php' => 
@@ -3036,7 +3212,9 @@ return [
     'fileHash' => '8818638605c64d93be61437548554c582fe13897',
     'dependentFiles' => 
     array (
-      0 => '/var/www/calculate/src/core/Cards/Domain/CreditCard.php',
+      0 => '/var/www/calculate/src/core/Cards/Application/CreditCardFactory.php',
+      1 => '/var/www/calculate/src/core/Cards/Domain/Contracts/CreditCardFactoryInterface.php',
+      2 => '/var/www/calculate/src/core/Cards/Domain/CreditCard.php',
     ),
   ),
   '/var/www/calculate/src/core/Cards/Domain/ValueObjects/CardId.php' => 
@@ -3059,7 +3237,9 @@ return [
     'fileHash' => 'd93e948d5c34e8861aa96a3ee3293d6433631182',
     'dependentFiles' => 
     array (
-      0 => '/var/www/calculate/src/core/Cards/Domain/CreditCard.php',
+      0 => '/var/www/calculate/src/core/Cards/Application/CreditCardFactory.php',
+      1 => '/var/www/calculate/src/core/Cards/Domain/Contracts/CreditCardFactoryInterface.php',
+      2 => '/var/www/calculate/src/core/Cards/Domain/CreditCard.php',
     ),
   ),
   '/var/www/calculate/src/core/Cards/Domain/ValueObjects/CardIssuer.php' => 
@@ -3084,16 +3264,18 @@ return [
   ),
   '/var/www/calculate/src/core/Cards/Infrastructure/Persistence/Repositories/EloquentCreditCardRepository.php' => 
   array (
-    'fileHash' => 'f0360db0fcd94010676cf573352b40b12439b01a',
+    'fileHash' => '8db411ffdbc34c2e2377f180c895aadcd15e2d9f',
     'dependentFiles' => 
     array (
+      0 => '/var/www/calculate/app/Providers/AppServiceProvider.php',
     ),
   ),
   '/var/www/calculate/src/core/Cards/Infrastructure/Services/CreditCardManager.php' => 
   array (
-    'fileHash' => '3ad8600eaaeb897bfdde5798b90dd6396cea6fb7',
+    'fileHash' => '6d4e6c6978295fb5c3982b7e7ef5d2b01a87421a',
     'dependentFiles' => 
     array (
+      0 => '/var/www/calculate/app/Providers/AppServiceProvider.php',
     ),
   ),
 ),
@@ -3135,6 +3317,17 @@ return [
             \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
                'name' => 'viewFactory',
                'type' => 'Illuminate\\View\\Factory',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            1 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'cardManager',
+               'type' => 'Core\\Cards\\Domain\\Contracts\\CreditCardManagerInterface',
                'byRef' => false,
                'variadic' => false,
                'hasDefault' => false,
@@ -3357,6 +3550,12 @@ return [
              'namespace' => 'App\\Providers',
              'uses' => 
             array (
+              'creditcardfactory' => 'Core\\Cards\\Application\\CreditCardFactory',
+              'creditcardfactoryinterface' => 'Core\\Cards\\Domain\\Contracts\\CreditCardFactoryInterface',
+              'creditcardmanagerinterface' => 'Core\\Cards\\Domain\\Contracts\\CreditCardManagerInterface',
+              'creditcardrepositoryinterface' => 'Core\\Cards\\Domain\\Contracts\\CreditCardRepositoryInterface',
+              'eloquentcreditcardrepository' => 'Core\\Cards\\Infrastructure\\Persistence\\Repositories\\EloquentCreditCardRepository',
+              'creditcardmanager' => 'Core\\Cards\\Infrastructure\\Services\\CreditCardManager',
               'serviceprovider' => 'Illuminate\\Support\\ServiceProvider',
             ),
              'constUses' => 
@@ -3388,6 +3587,12 @@ return [
              'namespace' => 'App\\Providers',
              'uses' => 
             array (
+              'creditcardfactory' => 'Core\\Cards\\Application\\CreditCardFactory',
+              'creditcardfactoryinterface' => 'Core\\Cards\\Domain\\Contracts\\CreditCardFactoryInterface',
+              'creditcardmanagerinterface' => 'Core\\Cards\\Domain\\Contracts\\CreditCardManagerInterface',
+              'creditcardrepositoryinterface' => 'Core\\Cards\\Domain\\Contracts\\CreditCardRepositoryInterface',
+              'eloquentcreditcardrepository' => 'Core\\Cards\\Infrastructure\\Persistence\\Repositories\\EloquentCreditCardRepository',
+              'creditcardmanager' => 'Core\\Cards\\Infrastructure\\Services\\CreditCardManager',
               'serviceprovider' => 'Illuminate\\Support\\ServiceProvider',
             ),
              'constUses' => 
@@ -3513,6 +3718,235 @@ return [
                'byRef' => false,
                'variadic' => false,
                'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        3 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'buildCreditCardFromObject',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Core\\Cards\\Domain\\CreditCard',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'object',
+               'type' => 'object',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        4 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'buildCreditCard',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Core\\Cards\\Domain\\CreditCard',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'id',
+               'type' => 'Core\\Cards\\Domain\\ValueObjects\\CardId',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            1 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'name',
+               'type' => 'Core\\Cards\\Domain\\ValueObjects\\CardName',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            2 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'issuer',
+               'type' => 'Core\\Cards\\Domain\\ValueObjects\\CardIssuer',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            3 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'annualFee',
+               'type' => 'Core\\Cards\\Domain\\ValueObjects\\CardAnnualFee',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            4 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'interestRate',
+               'type' => 'Core\\Cards\\Domain\\ValueObjects\\CardInterestRate',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            5 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'clickOutUrl',
+               'type' => 'Core\\Cards\\Domain\\ValueObjects\\CardClickOutUrl',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        5 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'buildAnnualFee',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Core\\Cards\\Domain\\ValueObjects\\CardAnnualFee',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'annualFee',
+               'type' => 'float',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => true,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        6 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'buildClickOutUrl',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Core\\Cards\\Domain\\ValueObjects\\CardClickOutUrl',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'url',
+               'type' => 'string',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        7 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'buildInterestRate',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Core\\Cards\\Domain\\ValueObjects\\CardInterestRate',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'interestRate',
+               'type' => 'float',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => true,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        8 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'buildFeatures',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Core\\Cards\\Domain\\ValueObjects\\CardFeatures',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'features',
+               'type' => 'array',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => true,
                'attributes' => 
               array (
               ),
@@ -4070,6 +4504,119 @@ return [
       array (
         0 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'buildCreditCardFromObject',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Core\\Cards\\Domain\\CreditCard',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'object',
+               'type' => 'object',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'buildCreditCard',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Core\\Cards\\Domain\\CreditCard',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'id',
+               'type' => 'Core\\Cards\\Domain\\ValueObjects\\CardId',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            1 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'name',
+               'type' => 'Core\\Cards\\Domain\\ValueObjects\\CardName',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            2 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'issuer',
+               'type' => 'Core\\Cards\\Domain\\ValueObjects\\CardIssuer',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            3 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'annualFee',
+               'type' => 'Core\\Cards\\Domain\\ValueObjects\\CardAnnualFee',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            4 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'interestRate',
+               'type' => 'Core\\Cards\\Domain\\ValueObjects\\CardInterestRate',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            5 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'clickOutUrl',
+               'type' => 'Core\\Cards\\Domain\\ValueObjects\\CardClickOutUrl',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'buildId',
            'phpDoc' => NULL,
            'byRef' => false,
@@ -4097,7 +4644,7 @@ return [
           array (
           ),
         )),
-        1 => 
+        3 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'buildName',
            'phpDoc' => NULL,
@@ -4126,7 +4673,7 @@ return [
           array (
           ),
         )),
-        2 => 
+        4 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'buildIssuer',
            'phpDoc' => NULL,
@@ -4146,6 +4693,122 @@ return [
                'byRef' => false,
                'variadic' => false,
                'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        5 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'buildAnnualFee',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Core\\Cards\\Domain\\ValueObjects\\CardAnnualFee',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'annualFee',
+               'type' => 'float',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => true,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        6 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'buildClickOutUrl',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Core\\Cards\\Domain\\ValueObjects\\CardClickOutUrl',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'url',
+               'type' => 'string',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        7 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'buildInterestRate',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Core\\Cards\\Domain\\ValueObjects\\CardInterestRate',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'interestRate',
+               'type' => 'float',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => true,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        8 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'buildFeatures',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Core\\Cards\\Domain\\ValueObjects\\CardFeatures',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'features',
+               'type' => 'array',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => true,
                'attributes' => 
               array (
               ),
@@ -5280,7 +5943,7 @@ return [
              'phpDocString' => '/**
      * @param array<string> $search
      *
-     * @return array|CreditCard[]
+     * @return array<CreditCard>
      */',
              'namespace' => 'Core\\Cards\\Infrastructure\\Persistence\\Repositories',
              'uses' => 

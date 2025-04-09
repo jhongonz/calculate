@@ -8,7 +8,7 @@
 
 declare(strict_types=1);
 
-class Container_c543132c84 extends _PHPStan_f2f2ddf44\Nette\DI\Container
+class Container_481c0d452c extends _PHPStan_f2f2ddf44\Nette\DI\Container
 {
 	protected $tags = [
 		'phpstan.parser.richParserNodeVisitor' => [
@@ -2603,7 +2603,7 @@ class Container_c543132c84 extends _PHPStan_f2f2ddf44\Nette\DI\Container
 			private $container;
 
 
-			public function __construct(Container_c543132c84 $container)
+			public function __construct(Container_481c0d452c $container)
 			{
 				$this->container = $container;
 			}
@@ -2881,7 +2881,7 @@ class Container_c543132c84 extends _PHPStan_f2f2ddf44\Nette\DI\Container
 			private $container;
 
 
-			public function __construct(Container_c543132c84 $container)
+			public function __construct(Container_481c0d452c $container)
 			{
 				$this->container = $container;
 			}
@@ -2943,7 +2943,7 @@ class Container_c543132c84 extends _PHPStan_f2f2ddf44\Nette\DI\Container
 			private $container;
 
 
-			public function __construct(Container_c543132c84 $container)
+			public function __construct(Container_481c0d452c $container)
 			{
 				$this->container = $container;
 			}
@@ -3069,7 +3069,7 @@ class Container_c543132c84 extends _PHPStan_f2f2ddf44\Nette\DI\Container
 			private $container;
 
 
-			public function __construct(Container_c543132c84 $container)
+			public function __construct(Container_481c0d452c $container)
 			{
 				$this->container = $container;
 			}
@@ -3089,7 +3089,7 @@ class Container_c543132c84 extends _PHPStan_f2f2ddf44\Nette\DI\Container
 			private $container;
 
 
-			public function __construct(Container_c543132c84 $container)
+			public function __construct(Container_481c0d452c $container)
 			{
 				$this->container = $container;
 			}
@@ -3192,7 +3192,7 @@ class Container_c543132c84 extends _PHPStan_f2f2ddf44\Nette\DI\Container
 			private $container;
 
 
-			public function __construct(Container_c543132c84 $container)
+			public function __construct(Container_481c0d452c $container)
 			{
 				$this->container = $container;
 			}
@@ -4899,7 +4899,7 @@ class Container_c543132c84 extends _PHPStan_f2f2ddf44\Nette\DI\Container
 			private $container;
 
 
-			public function __construct(Container_c543132c84 $container)
+			public function __construct(Container_481c0d452c $container)
 			{
 				$this->container = $container;
 			}
@@ -6191,7 +6191,7 @@ class Container_c543132c84 extends _PHPStan_f2f2ddf44\Nette\DI\Container
 	}
 
 
-	public function createServiceContainer(): Container_c543132c84
+	public function createServiceContainer(): Container_481c0d452c
 	{
 		return $this;
 	}
@@ -8307,8 +8307,8 @@ class Container_c543132c84 extends _PHPStan_f2f2ddf44\Nette\DI\Container
 				'SHELL_VERBOSITY' => '0',
 				'PHPSTAN_ORIGINAL_INIS' => '/etc/php/8.3/cli/php.ini:/etc/php/8.3/cli/conf.d/10-mysqlnd.ini:/etc/php/8.3/cli/conf.d/10-opcache.ini:/etc/php/8.3/cli/conf.d/10-pdo.ini:/etc/php/8.3/cli/conf.d/15-xml.ini:/etc/php/8.3/cli/conf.d/20-bcmath.ini:/etc/php/8.3/cli/conf.d/20-calendar.ini:/etc/php/8.3/cli/conf.d/20-ctype.ini:/etc/php/8.3/cli/conf.d/20-curl.ini:/etc/php/8.3/cli/conf.d/20-dom.ini:/etc/php/8.3/cli/conf.d/20-exif.ini:/etc/php/8.3/cli/conf.d/20-ffi.ini:/etc/php/8.3/cli/conf.d/20-fileinfo.ini:/etc/php/8.3/cli/conf.d/20-ftp.ini:/etc/php/8.3/cli/conf.d/20-gd.ini:/etc/php/8.3/cli/conf.d/20-gettext.ini:/etc/php/8.3/cli/conf.d/20-iconv.ini:/etc/php/8.3/cli/conf.d/20-igbinary.ini:/etc/php/8.3/cli/conf.d/20-imagick.ini:/etc/php/8.3/cli/conf.d/20-intl.ini:/etc/php/8.3/cli/conf.d/20-mbstring.ini:/etc/php/8.3/cli/conf.d/20-mysqli.ini:/etc/php/8.3/cli/conf.d/20-pdo_mysql.ini:/etc/php/8.3/cli/conf.d/20-pdo_sqlite.ini:/etc/php/8.3/cli/conf.d/20-phar.ini:/etc/php/8.3/cli/conf.d/20-posix.ini:/etc/php/8.3/cli/conf.d/20-readline.ini:/etc/php/8.3/cli/conf.d/20-shmop.ini:/etc/php/8.3/cli/conf.d/20-simplexml.ini:/etc/php/8.3/cli/conf.d/20-soap.ini:/etc/php/8.3/cli/conf.d/20-sockets.ini:/etc/php/8.3/cli/conf.d/20-sqlite3.ini:/etc/php/8.3/cli/conf.d/20-sysvmsg.ini:/etc/php/8.3/cli/conf.d/20-sysvsem.ini:/etc/php/8.3/cli/conf.d/20-sysvshm.ini:/etc/php/8.3/cli/conf.d/20-tokenizer.ini:/etc/php/8.3/cli/conf.d/20-xdebug.ini:/etc/php/8.3/cli/conf.d/20-xmlreader.ini:/etc/php/8.3/cli/conf.d/20-xmlwriter.ini:/etc/php/8.3/cli/conf.d/20-xsl.ini:/etc/php/8.3/cli/conf.d/20-zip.ini:/etc/php/8.3/cli/conf.d/25-redis.ini',
 				'PHP_INI_SCAN_DIR' => '',
-				'PHPRC' => '/tmp/QEmYIK',
-				'XDEBUG_HANDLER_SETTINGS' => '/tmp/QEmYIK|1|*|*|/etc/php/8.3/cli/php.ini:/etc/php/8.3/cli/conf.d/10-mysqlnd.ini:/etc/php/8.3/cli/conf.d/10-opcache.ini:/etc/php/8.3/cli/conf.d/10-pdo.ini:/etc/php/8.3/cli/conf.d/15-xml.ini:/etc/php/8.3/cli/conf.d/20-bcmath.ini:/etc/php/8.3/cli/conf.d/20-calendar.ini:/etc/php/8.3/cli/conf.d/20-ctype.ini:/etc/php/8.3/cli/conf.d/20-curl.ini:/etc/php/8.3/cli/conf.d/20-dom.ini:/etc/php/8.3/cli/conf.d/20-exif.ini:/etc/php/8.3/cli/conf.d/20-ffi.ini:/etc/php/8.3/cli/conf.d/20-fileinfo.ini:/etc/php/8.3/cli/conf.d/20-ftp.ini:/etc/php/8.3/cli/conf.d/20-gd.ini:/etc/php/8.3/cli/conf.d/20-gettext.ini:/etc/php/8.3/cli/conf.d/20-iconv.ini:/etc/php/8.3/cli/conf.d/20-igbinary.ini:/etc/php/8.3/cli/conf.d/20-imagick.ini:/etc/php/8.3/cli/conf.d/20-intl.ini:/etc/php/8.3/cli/conf.d/20-mbstring.ini:/etc/php/8.3/cli/conf.d/20-mysqli.ini:/etc/php/8.3/cli/conf.d/20-pdo_mysql.ini:/etc/php/8.3/cli/conf.d/20-pdo_sqlite.ini:/etc/php/8.3/cli/conf.d/20-phar.ini:/etc/php/8.3/cli/conf.d/20-posix.ini:/etc/php/8.3/cli/conf.d/20-readline.ini:/etc/php/8.3/cli/conf.d/20-shmop.ini:/etc/php/8.3/cli/conf.d/20-simplexml.ini:/etc/php/8.3/cli/conf.d/20-soap.ini:/etc/php/8.3/cli/conf.d/20-sockets.ini:/etc/php/8.3/cli/conf.d/20-sqlite3.ini:/etc/php/8.3/cli/conf.d/20-sysvmsg.ini:/etc/php/8.3/cli/conf.d/20-sysvsem.ini:/etc/php/8.3/cli/conf.d/20-sysvshm.ini:/etc/php/8.3/cli/conf.d/20-tokenizer.ini:/etc/php/8.3/cli/conf.d/20-xdebug.ini:/etc/php/8.3/cli/conf.d/20-xmlreader.ini:/etc/php/8.3/cli/conf.d/20-xmlwriter.ini:/etc/php/8.3/cli/conf.d/20-xsl.ini:/etc/php/8.3/cli/conf.d/20-zip.ini:/etc/php/8.3/cli/conf.d/25-redis.ini|3.4.2',
+				'PHPRC' => '/tmp/0GDbd3',
+				'XDEBUG_HANDLER_SETTINGS' => '/tmp/0GDbd3|1|*|*|/etc/php/8.3/cli/php.ini:/etc/php/8.3/cli/conf.d/10-mysqlnd.ini:/etc/php/8.3/cli/conf.d/10-opcache.ini:/etc/php/8.3/cli/conf.d/10-pdo.ini:/etc/php/8.3/cli/conf.d/15-xml.ini:/etc/php/8.3/cli/conf.d/20-bcmath.ini:/etc/php/8.3/cli/conf.d/20-calendar.ini:/etc/php/8.3/cli/conf.d/20-ctype.ini:/etc/php/8.3/cli/conf.d/20-curl.ini:/etc/php/8.3/cli/conf.d/20-dom.ini:/etc/php/8.3/cli/conf.d/20-exif.ini:/etc/php/8.3/cli/conf.d/20-ffi.ini:/etc/php/8.3/cli/conf.d/20-fileinfo.ini:/etc/php/8.3/cli/conf.d/20-ftp.ini:/etc/php/8.3/cli/conf.d/20-gd.ini:/etc/php/8.3/cli/conf.d/20-gettext.ini:/etc/php/8.3/cli/conf.d/20-iconv.ini:/etc/php/8.3/cli/conf.d/20-igbinary.ini:/etc/php/8.3/cli/conf.d/20-imagick.ini:/etc/php/8.3/cli/conf.d/20-intl.ini:/etc/php/8.3/cli/conf.d/20-mbstring.ini:/etc/php/8.3/cli/conf.d/20-mysqli.ini:/etc/php/8.3/cli/conf.d/20-pdo_mysql.ini:/etc/php/8.3/cli/conf.d/20-pdo_sqlite.ini:/etc/php/8.3/cli/conf.d/20-phar.ini:/etc/php/8.3/cli/conf.d/20-posix.ini:/etc/php/8.3/cli/conf.d/20-readline.ini:/etc/php/8.3/cli/conf.d/20-shmop.ini:/etc/php/8.3/cli/conf.d/20-simplexml.ini:/etc/php/8.3/cli/conf.d/20-soap.ini:/etc/php/8.3/cli/conf.d/20-sockets.ini:/etc/php/8.3/cli/conf.d/20-sqlite3.ini:/etc/php/8.3/cli/conf.d/20-sysvmsg.ini:/etc/php/8.3/cli/conf.d/20-sysvsem.ini:/etc/php/8.3/cli/conf.d/20-sysvshm.ini:/etc/php/8.3/cli/conf.d/20-tokenizer.ini:/etc/php/8.3/cli/conf.d/20-xdebug.ini:/etc/php/8.3/cli/conf.d/20-xmlreader.ini:/etc/php/8.3/cli/conf.d/20-xmlwriter.ini:/etc/php/8.3/cli/conf.d/20-xsl.ini:/etc/php/8.3/cli/conf.d/20-zip.ini:/etc/php/8.3/cli/conf.d/25-redis.ini|3.4.2',
 			],
 		];
 	}

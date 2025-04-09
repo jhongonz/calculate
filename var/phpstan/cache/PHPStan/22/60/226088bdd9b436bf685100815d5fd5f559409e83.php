@@ -180,16 +180,22 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     '/var/www/calculate/src/core/Cards/Domain/Contracts/CreditCardFactoryInterface.php' => 
     array (
-      0 => '08df3d449aa7822272ab4e0544c10c6178e83ae3',
+      0 => '623932f7d15beef2a84a60e117bd01760ae37e87',
       1 => 
       array (
         0 => 'core\\cards\\domain\\contracts\\creditcardfactoryinterface',
       ),
       2 => 
       array (
-        0 => 'core\\cards\\domain\\contracts\\buildid',
-        1 => 'core\\cards\\domain\\contracts\\buildname',
-        2 => 'core\\cards\\domain\\contracts\\buildissuer',
+        0 => 'core\\cards\\domain\\contracts\\buildcreditcardfromobject',
+        1 => 'core\\cards\\domain\\contracts\\buildcreditcard',
+        2 => 'core\\cards\\domain\\contracts\\buildid',
+        3 => 'core\\cards\\domain\\contracts\\buildname',
+        4 => 'core\\cards\\domain\\contracts\\buildissuer',
+        5 => 'core\\cards\\domain\\contracts\\buildannualfee',
+        6 => 'core\\cards\\domain\\contracts\\buildclickouturl',
+        7 => 'core\\cards\\domain\\contracts\\buildinterestrate',
+        8 => 'core\\cards\\domain\\contracts\\buildfeatures',
       ),
       3 => 
       array (
@@ -197,7 +203,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     '/var/www/calculate/src/core/Cards/Infrastructure/Persistence/Repositories/EloquentCreditCardRepository.php' => 
     array (
-      0 => 'f0360db0fcd94010676cf573352b40b12439b01a',
+      0 => '8db411ffdbc34c2e2377f180c895aadcd15e2d9f',
       1 => 
       array (
         0 => 'core\\cards\\infrastructure\\persistence\\repositories\\eloquentcreditcardrepository',
@@ -214,7 +220,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     '/var/www/calculate/src/core/Cards/Application/CreditCardFactory.php' => 
     array (
-      0 => '03ce80da869c7357bc1a17194e7935ffaa904eb7',
+      0 => 'd6c0f4d854f415959df0c787bc6c5358f485aa23',
       1 => 
       array (
         0 => 'core\\cards\\application\\creditcardfactory',
@@ -224,6 +230,12 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
         0 => 'core\\cards\\application\\buildid',
         1 => 'core\\cards\\application\\buildname',
         2 => 'core\\cards\\application\\buildissuer',
+        3 => 'core\\cards\\application\\buildcreditcardfromobject',
+        4 => 'core\\cards\\application\\buildcreditcard',
+        5 => 'core\\cards\\application\\buildannualfee',
+        6 => 'core\\cards\\application\\buildclickouturl',
+        7 => 'core\\cards\\application\\buildinterestrate',
+        8 => 'core\\cards\\application\\buildfeatures',
       ),
       3 => 
       array (
@@ -292,7 +304,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     '/var/www/calculate/src/core/Cards/Infrastructure/Services/CreditCardManager.php' => 
     array (
-      0 => '3ad8600eaaeb897bfdde5798b90dd6396cea6fb7',
+      0 => '6d4e6c6978295fb5c3982b7e7ef5d2b01a87421a',
       1 => 
       array (
         0 => 'core\\cards\\infrastructure\\services\\creditcardmanager',
