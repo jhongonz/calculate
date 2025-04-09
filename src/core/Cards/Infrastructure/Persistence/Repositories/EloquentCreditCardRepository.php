@@ -43,7 +43,8 @@ class EloquentCreditCardRepository implements CreditCardRepositoryInterface
     public function findById(CardId $id): ?CreditCard
     {
         $builder = $this->databaseManager->table('credit_card');
-        $result = $builder->first($id->value())->toArray();
+        $builder->where('card_id', $id->value());
+        $result = $builder->first();
 
         return $this->cardFactory->buildCreditCardFromObject($result);
     }

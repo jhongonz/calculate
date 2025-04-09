@@ -9,4 +9,8 @@ Route::get('/', function () {
 
 Route::controller(CardControllers::class)->prefix('cards')->group(function () {
     Route::get('', 'index')->name('cards.index');
+
+    Route::get('clickout/{id}', 'clickOut')
+        ->whereNumber('id')
+        ->name('cards.clickout');
 });

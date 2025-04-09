@@ -64,24 +64,24 @@ class CreditCard
         return $this;
     }
 
-    private function annualFee(): CardAnnualFee
+    public function annualFee(): CardAnnualFee
     {
         return $this->annualFee;
     }
 
-    private function setAnnualFee(CardAnnualFee $annualFee): CreditCard
+    public function setAnnualFee(CardAnnualFee $annualFee): CreditCard
     {
         $this->annualFee = $annualFee;
 
         return $this;
     }
 
-    private function interestRate(): CardInterestRate
+    public function interestRate(): CardInterestRate
     {
         return $this->interestRate;
     }
 
-    private function setInterestRate(CardInterestRate $interestRate): CreditCard
+    public function setInterestRate(CardInterestRate $interestRate): CreditCard
     {
         $this->interestRate = $interestRate;
 
