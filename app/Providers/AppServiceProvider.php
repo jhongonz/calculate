@@ -6,8 +6,10 @@ use Core\Cards\Application\CreditCardFactory;
 use Core\Cards\Domain\Contracts\CreditCardFactoryInterface;
 use Core\Cards\Domain\Contracts\CreditCardManagerInterface;
 use Core\Cards\Domain\Contracts\CreditCardRepositoryInterface;
+use Core\Cards\Infrastructure\Persistence\EloquentModel\CreditCard as CreditCardModel;
 use Core\Cards\Infrastructure\Persistence\Repositories\EloquentCreditCardRepository;
 use Core\Cards\Infrastructure\Services\CreditCardManager;
+use Illuminate\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -25,12 +27,8 @@ class AppServiceProvider extends ServiceProvider
 
         // Definition DI Repository Credit card
         $this->app->singletonIf(CreditCardRepositoryInterface::class, EloquentCreditCardRepository::class);
-    }
-
-    /**
-     * Bootstrap any application services.
-     */
-    public function boot(): void
-    {
+        $this->app->singleton(CreditCardModel::class, function () {
+            return new CreditCardModel();
+        });
     }
 }
