@@ -50,5 +50,21 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
       array (
       ),
     ),
+    '/var/www/calculate/app/Http/Controllers/CardControllers.php' => 
+    array (
+      0 => '5ffcf4c6bfdeb30d23cf0b0fa4dfc72f74912f6e',
+      1 => 
+      array (
+        0 => 'app\\http\\controllers\\cardcontrollers',
+      ),
+      2 => 
+      array (
+        0 => 'app\\http\\controllers\\__construct',
+        1 => 'app\\http\\controllers\\index',
+      ),
+      3 => 
+      array (
+      ),
+    ),
   ),
 ));
