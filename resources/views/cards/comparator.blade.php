@@ -26,7 +26,7 @@
                 <tr class="border-t hover:bg-gray-50">
                     <td class="px-6 py-4 font-semibold">{{ $card->name()->value() }}</td>
                     <td class="px-6 py-4">{{ $card->issuer()->value() }}</td>
-                    <td class="px-6 py-4">{{ number_format($card->interestRate()->value(), 2) }}%</td>
+                    <td class="px-6 py-4">{{ number_format($card->interestRate()->value(), 2) }} %</td>
                     <td class="px-6 py-4">${{ number_format($card->annualFee()->value(), 2) }}</td>
                     <td class="px-6 py-4">
                         <a href="{{ route('cards.clickout', $card->id()->value()) }}"

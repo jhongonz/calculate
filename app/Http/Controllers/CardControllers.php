@@ -9,12 +9,12 @@ namespace App\Http\Controllers;
 
 use Core\Cards\Domain\Contracts\CreditCardManagerInterface;
 use Illuminate\Http\RedirectResponse;
-use Illuminate\View\Factory;
+use Illuminate\View\Factory as ViewFactory;
 
 class CardControllers extends Controller
 {
     public function __construct(
-        private readonly Factory $viewFactory,
+        private readonly ViewFactory $viewFactory,
         private readonly CreditCardManagerInterface $cardManager,
     ) {
     }

@@ -9,7 +9,6 @@ use Core\Cards\Domain\Contracts\CreditCardRepositoryInterface;
 use Core\Cards\Infrastructure\Persistence\EloquentModel\CreditCard as CreditCardModel;
 use Core\Cards\Infrastructure\Persistence\Repositories\EloquentCreditCardRepository;
 use Core\Cards\Infrastructure\Services\CreditCardManager;
-use Illuminate\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
