@@ -26,6 +26,9 @@ class GetCreditCardTest extends TestCase
     private CreditCardRepositoryInterface|MockObject $repositoryMock;
     private GetCreditCard $useCase;
 
+    /**
+     * @throws Exception
+     */
     protected function setUp(): void
     {
         parent::setUp();
