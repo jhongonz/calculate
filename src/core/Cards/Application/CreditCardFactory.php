@@ -34,6 +34,17 @@ class CreditCardFactory implements CreditCardFactoryInterface
         return new CardIssuer($issuer);
     }
 
+    /**
+     * @param object{
+     *     card_id: int,
+     *     name: string,
+     *     issuer: string,
+     *     annual_fee: float,
+     *     interest_rate:float,
+     *     clickout_url: string,
+     *     features: array<string>
+     * } $object
+     */
     public function buildCreditCardFromObject(object $object): CreditCard
     {
         $card = $this->buildCreditCard(
@@ -87,6 +98,9 @@ class CreditCardFactory implements CreditCardFactoryInterface
         return new CardInterestRate($interestRate);
     }
 
+    /**
+     * @param array<string> $features
+     */
     public function buildFeatures(array $features = []): CardFeatures
     {
         return new CardFeatures($features);

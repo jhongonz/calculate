@@ -41,5 +41,8 @@ interface CreditCardFactoryInterface
 
     public function buildInterestRate(float $interestRate = 0.0): CardInterestRate;
 
+    /**
+     * @param array<string> $features
+     */
     public function buildFeatures(array $features = []): CardFeatures;
 }

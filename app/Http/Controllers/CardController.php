@@ -8,10 +8,11 @@
 namespace App\Http\Controllers;
 
 use Core\Cards\Domain\Contracts\CreditCardManagerInterface;
+use Core\Cards\Domain\CreditCard;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\View\Factory as ViewFactory;
 
-class CardControllers extends Controller
+class CardController extends Controller
 {
     public function __construct(
         private readonly ViewFactory $viewFactory,
@@ -30,6 +31,7 @@ class CardControllers extends Controller
 
     public function clickOut(int $id): RedirectResponse
     {
+        /** @var CreditCard $card */
         $card = $this->cardManager->findCreditCard($id);
 
         return redirect()->away($card->clickOutUrl()->value());

@@ -32,6 +32,8 @@ class EloquentCreditCardRepository implements CreditCardRepositoryInterface
         $result = $builder->get()->toArray();
 
         $collection = [];
+
+        /** @var object $item */
         foreach ($result as $item) {
             $card = $this->cardFactory->buildCreditCardFromObject($item);
             $collection[] = $card;
@@ -44,6 +46,8 @@ class EloquentCreditCardRepository implements CreditCardRepositoryInterface
     {
         $builder = $this->databaseManager->table('credit_card');
         $builder->where('card_id', $id->value());
+
+        /** @var object $result */
         $result = $builder->first();
 
         return $this->cardFactory->buildCreditCardFromObject($result);

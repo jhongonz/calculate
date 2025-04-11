@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @author Jhonny Andres Gonzalez <jhonnygonzalezf@gmail.com>
  * Date: 2025-04-11 20:38:48
@@ -65,7 +66,7 @@ class CreditCardManagerTest extends TestCase
     {
         $dataMock = [
             $this->createMock(CreditCard::class),
-            $this->createMock(CreditCard::class)
+            $this->createMock(CreditCard::class),
         ];
 
         $request = new GetCreditCardRequest();

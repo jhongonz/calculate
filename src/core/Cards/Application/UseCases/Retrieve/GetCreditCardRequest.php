@@ -19,6 +19,9 @@ readonly class GetCreditCardRequest implements RequestServiceInterface
     ) {
     }
 
+    /**
+     * @return array<string>
+     */
     public function search(): array
     {
         return $this->search;
