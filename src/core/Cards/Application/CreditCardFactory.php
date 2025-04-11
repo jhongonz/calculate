@@ -42,7 +42,7 @@ class CreditCardFactory implements CreditCardFactoryInterface
      *     annual_fee: float,
      *     interest_rate:float,
      *     clickout_url: string,
-     *     features: array<string>
+     *     features: string
      * } $object
      */
     public function buildCreditCardFromObject(object $object): CreditCard
@@ -56,9 +56,12 @@ class CreditCardFactory implements CreditCardFactoryInterface
             $this->buildClickOutUrl($object->clickout_url)
         );
 
-        if (!empty($object->features)) {
+        /** @var array<string> $features */
+        $features = json_decode($object->features);
+
+        if (!empty($features)) {
             $card->setFeatures(
-                $this->buildFeatures($object->features)
+                $this->buildFeatures($features)
             );
         }
 
